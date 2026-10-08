@@ -1,0 +1,21 @@
+The following changes were made by the replace_file_content tool to: C:\Users\HARSHADA\.gemini\Assets\Scripts\Core\LevelManager.cs. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -29,6 +29,15 @@
+             }
+             Instance = this;
+             DontDestroyOnLoad(gameObject);
++
++            if (levels == null || levels.Count == 0)
++            {
++                LevelData[] found = Resources.LoadAll<LevelData>("");
++                if (found != null && found.Length > 0)
++                {
++                    levels = new List<LevelData>(found);
++                }
++            }
+         }
+ 
+         /// <summary>
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

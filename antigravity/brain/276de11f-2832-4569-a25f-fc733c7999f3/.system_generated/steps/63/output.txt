@@ -1,0 +1,14 @@
+The following changes were made by the replace_file_content tool to: C:\Users\HARSHADA\.gemini\Assets\Scripts\Data\LevelData.cs. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -6,7 +6,7 @@
+     /// ScriptableObject defining puzzle level configuration, image, and grid parameters.
+     /// Create new levels via: Right-Click > Create > Jigsaw Puzzle > Level Data.
+     /// </summary>
+-    [CreateAssetMenu(fileName = "NewLevelData", menuMenuName = "Jigsaw Puzzle/Level Data", order = 1)]
++    [CreateAssetMenu(fileName = "NewLevelData", menuName = "Jigsaw Puzzle/Level Data", order = 1)]
+     public class LevelData : ScriptableObject
+     {
+         [Header("Level Information")]
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+
+FullName                                                     Length
+--------                                                     ------
+C:\Users\HARSHADA\.gemini\Unity_2D_Jigsaw_Puzzle_Report.docx 942770
+
+
+

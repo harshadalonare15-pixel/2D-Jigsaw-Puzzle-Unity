@@ -1,0 +1,39 @@
+The following changes were made by the replace_file_content tool to: C:\Users\HARSHADA\.gemini\antigravity\scratch\Unity2DJigsawPuzzle\Assets\Scripts\Editor\PuzzleSetupTools.cs. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -16,8 +16,33 @@
+     /// Automated setup tools for the Jigsaw Puzzle project.
+     /// Access via Unity menu: Tools > Jigsaw > ...
+     /// </summary>
++    [InitializeOnLoad]
+     public static class PuzzleSetupTools
+     {
++        static PuzzleSetupTools()
++        {
++            EditorApplication.delayCall += CheckFirstTimeSetup;
++        }
++
++        private static void CheckFirstTimeSetup()
++        {
++            if (!File.Exists("Assets/Scenes/Game.unity"))
++            {
++                bool setup = EditorUtility.DisplayDialog(
++                    "Welcome to 2D Jigsaw Puzzle!",
++                    "Your C# scripts have compiled successfully (0 errors)!\n\n" +
++                    "Would you like to automatically create the sample Farm image, levels, and Game scenes right now?",
++                    "Yes, Build Everything Now!",
++                    "I'll do it later from Tools menu"
++                );
++
++                if (setup)
++                {
++                    QuickSetupEverything();
++                }
++            }
++        }
++
+         [MenuItem("Tools/Jigsaw/1. Quick Setup Everything (One Click)", false, 0)]
+         public static void QuickSetupEverything()
+         {
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

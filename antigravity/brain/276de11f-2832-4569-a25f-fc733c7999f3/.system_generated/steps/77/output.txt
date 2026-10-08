@@ -1,0 +1,14 @@
+
+The command exited with code 0.
+Output:
+
+
+    Directory: C:\Users\HARSHADA\.gemini\Assets\Resources
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        08-10-2026     18:51                Levels                                                               
+
+
+

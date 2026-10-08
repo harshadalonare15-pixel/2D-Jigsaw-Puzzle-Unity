@@ -1,0 +1,29 @@
+
+The command exited with code 0.
+Output:
+
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1327:Assets\Scripts\UI\WinPanel.cs(21,16): error CS0246: The 
+type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1328:Assets\Scripts\UI\HUDController.cs(23,16): error CS0246: 
+The type or namespace name 'TextMeshProUGUI' could not be found (are you missing a using directive or an assembly 
+reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1329:Assets\Scripts\UI\WinPanel.cs(22,16): error CS0246: The 
+type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1330:Assets\Scripts\UI\HUDController.cs(26,16): error CS0246: 
+The type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1331:Assets\Scripts\UI\WinPanel.cs(23,16): error CS0246: The 
+type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1332:Assets\Scripts\UI\HUDController.cs(27,16): error CS0246: 
+The type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1333:Assets\Scripts\UI\HUDController.cs(28,16): error CS0246: 
+The type or namespace name 'Button' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1334:Assets\Scripts\UI\HUDController.cs(32,16): error CS0246: 
+The type or namespace name 'Image' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1335:Assets\Scripts\Data\LevelData.cs(9,49): error CS0246: The 
+type or namespace name 'menuMenuName' could not be found (are you missing a using directive or an assembly reference?)
+C:\Users\HARSHADA\AppData\Local\Unity\Editor\Editor.log:1425:[Worker0] Start importing 
+Assets/Scripts/Puzzle/PuzzleBoard.cs using Guid(da0be7a89cdeefd47abbe95896c3bee3) 
+Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+
+
+

@@ -1,0 +1,140 @@
+
+The command exited with code 1.
+Output:
+<truncated 284 lines>
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(10) :     public static Vector2 operator /(Vector2 a, float d) => 
+new Vector2(a.x / d, a.y / d);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) : >>>     public float magnitude => (float)Math.Sqrt(x * x + y 
+* y);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) :     public static Vector2 up => new Vector2(0, 1);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(10) :     public static Vector2 operator /(Vector2 a, float d) => 
+new Vector2(a.x / d, a.y / d);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) : >>>     public float magnitude => (float)Math.Sqrt(x * x + y 
+* y);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) :     public static Vector2 up => new Vector2(0, 1);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) :     public float magnitude => (float)Math.Sqrt(x * x + y * y);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) : >>>     public static Vector2 up => new Vector2(0, 1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) :     public static Vector2 down => new Vector2(0, -1);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) : Type expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(11) :     public float magnitude => (float)Math.Sqrt(x * x + y * y);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) : >>>     public static Vector2 up => new Vector2(0, 1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) :     public static Vector2 down => new Vector2(0, -1);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) :     public static Vector2 up => new Vector2(0, 1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) : >>>     public static Vector2 down => new Vector2(0, -1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) :     public static Vector2 right => new Vector2(1, 0);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) : Type expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(12) :     public static Vector2 up => new Vector2(0, 1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) : >>>     public static Vector2 down => new Vector2(0, -1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) :     public static Vector2 right => new Vector2(1, 0);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) :     public static Vector2 down => new Vector2(0, -1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) : >>>     public static Vector2 right => new Vector2(1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) :     public static Vector2 left => new Vector2(-1, 0);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) : Type expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(13) :     public static Vector2 down => new Vector2(0, -1);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) : >>>     public static Vector2 right => new Vector2(1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) :     public static Vector2 left => new Vector2(-1, 0);
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) : ; expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) :     public static Vector2 right => new Vector2(1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) : >>>     public static Vector2 left => new Vector2(-1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(16) : }
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) : Type expected
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(14) :     public static Vector2 right => new Vector2(1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(15) : >>>     public static Vector2 left => new Vector2(-1, 0);
+c:\Users\HARSHADA\AppData\Local\Temp\2qola3br.0.cs(16) : }
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (Microsoft.Power...peCompilerError:AddTypeCompilerError) [Add-Type], Except 
+   ion
+    + FullyQualifiedErrorId : SOURCE_CODE_ERROR,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Add-Type : Cannot add type. Compilation errors occurred.
+At line:2 char:1
++ Add-Type -TypeDefinition @'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Add-Type], InvalidOperationException
+    + FullyQualifiedErrorId : COMPILER_ERRORS,Microsoft.PowerShell.Commands.AddTypeCommand
+ 
+Unable to find type [Test].
+At line:26 char:1
++ [Test]::Main()
++ ~~~~~~
+    + CategoryInfo          : InvalidOperation: (Test:TypeName) [], RuntimeException
+    + FullyQualifiedErrorId : TypeNotFound
+ 
+
