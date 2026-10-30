@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-
-C:\Users\HARSHADA\.gemini\Assets\Scripts\Data\LevelData.cs.meta:2:guid: 3be61740e471cb4449727eee59125476
-
-
-

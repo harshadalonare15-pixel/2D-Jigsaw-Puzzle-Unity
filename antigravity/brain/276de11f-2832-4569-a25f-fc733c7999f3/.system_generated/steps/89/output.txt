@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-
-C:\Users\HARSHADA\.gemini\Assets\Sprites\FarmSample.png.meta:2:guid: 3979bc90a7aa9da469f3feb234a4a4ea
-
-
-

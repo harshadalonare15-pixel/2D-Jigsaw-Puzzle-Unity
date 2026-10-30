@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-Report successfully saved to: C:\Users\HARSHADA\.gemini\antigravity\scratch\Unity_2D_Jigsaw_Puzzle_Report.docx
-

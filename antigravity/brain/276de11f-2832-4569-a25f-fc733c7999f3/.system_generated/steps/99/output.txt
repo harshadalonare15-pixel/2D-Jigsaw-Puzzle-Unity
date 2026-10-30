@@ -1,8 +1,0 @@
-
-The command exited with code 0.
-Output:
-
-C:\Users\HARSHADA\.gemini\Assets\Levels\Level_1_Farm.asset.meta:2:guid: d146dc8ba139dfc4eaedec9f99603a14
-
-
-
